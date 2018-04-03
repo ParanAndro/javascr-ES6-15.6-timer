@@ -3,6 +3,20 @@
   "version": "1.0.0",
   "description": "Timer",
   "main": "index.js",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.22.0",
+    "glob-run": "^0.1.6",
+    "jshint": "^2.9.5",
+    "node-sass": "^4.7.2",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "parallelshell": "^3.0.2"
+  },
   "scripts": {
     "start": "babel script.js --watch --out-file script-compiled.js",
     "test": "npm run test:html",
@@ -31,16 +45,5 @@
   "bugs": {
     "url": "https://github.com/ParanAndro/javascr-ES6-15.6-timer/issues"
   },
-  "homepage": "https://github.com/ParanAndro/javascr-ES6-15.6-timer#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1",
-    "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.22.0",
-    "glob-run": "^0.1.6",
-    "jshint": "^2.9.5",
-    "node-sass": "^4.7.2",
-    "nu-html-checker": "^0.1.0",
-    "onchange": "^3.3.0"
-  }
+  "homepage": "https://github.com/ParanAndro/javascr-ES6-15.6-timer#readme"
 }
